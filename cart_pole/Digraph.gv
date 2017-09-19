@@ -1,0 +1,10 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	cPos [fillcolor=lightgray shape=box style=filled]
+	cVel [fillcolor=lightgray shape=box style=filled]
+	"esq ou dir" [fillcolor=lightblue style=filled]
+	10292 [fillcolor=white style=filled]
+	cPos -> 10292 [color=red penwidth=0.3342858858118028 style=dotted]
+	cPos -> "esq ou dir" [color=red penwidth=0.2577574857886858 style=solid]
+	cVel -> "esq ou dir" [color=red penwidth=3.6146733233996367 style=solid]
+}
